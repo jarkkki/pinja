@@ -1,0 +1,47 @@
+/* dark-theme.css */
+body {
+    background-color: #121212; /* Tumma tausta */
+    color: #e0e0e0; /* Vaalea teksti */
+    font-family: Arial, sans-serif;
+  }
+  
+  header, footer {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    padding: 10px;
+  }
+  
+  button {
+    background-color: #333333;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #444444;
+  }
+  
+  a {
+    color: #bb86fc; /* Korosteväri */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #1e1e1e;
+    border-radius: 5px;
+  }
+  

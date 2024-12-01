@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { PDFDownloadLink, Document, Page, Text, StyleSheet, View } from '@react-pdf/renderer';
-
+import '../styles/dark-theme.css';
 // Konsulttien tiedot
 const consultantsData = [
-  { id: 1, name: 'John Doe', technology: 'React', experience: 5, education: 'B.Sc. Computer Science', certifications: 'React Certified' },
-  { id: 2, name: 'Jane Smith', technology: 'Node.js', experience: 3, education: 'M.Sc. Software Engineering', certifications: 'Node.js Certified' },
-  { id: 3, name: 'Tom Hanks', technology: 'Java', experience: 10, education: 'B.Sc. Software Engineering', certifications: 'Java Certified' },
+  { id: 1, name: 'Matti Meikäläinen', technology: 'React', experience: 5, education: 'B.Sc. Computer Science', certifications: 'React Certified' },
+  { id: 2, name: 'Pekka Pekkala', technology: 'Node.js', experience: 3, education: 'M.Sc. Software Engineering', certifications: 'Node.js Certified' },
+  { id: 3, name: 'Tuomas Virtanen', technology: 'Java', experience: 10, education: 'B.Sc. Software Engineering', certifications: 'Java Certified' },
   // Lisää muita konsultteja
 ];
 
